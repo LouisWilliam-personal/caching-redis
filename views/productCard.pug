@@ -1,0 +1,12 @@
+link(rel="stylesheet" href="style.css")
+
+table
+    tr
+        th Name
+        th Model
+        th Price
+    each item in products
+        tr
+            td= item.productName
+            td= item.model
+            td= item.price

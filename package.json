@@ -1,0 +1,21 @@
+{
+  "name": "cache",
+  "version": "1.0.0",
+  "description": "An example of cache memory. Demo redis with nodejs as cache",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Louis William",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "pug": "^3.0.0",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
